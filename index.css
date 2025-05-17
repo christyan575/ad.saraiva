@@ -8,7 +8,7 @@
 /* Corpo da página */
 body {
   font-family: Arial, sans-serif; /* Define a fonte padrão para o texto */
-  background-image: url(/b.jpg); /* Define imagem de fundo */
+  background-image: url(/Projeto/fotos/b.jpg); /* Define imagem de fundo */
   background-size: 100% 100%; /* Faz a imagem preencher 100% da largura e altura */
   background-position: center; /* Centraliza a imagem */
   background-attachment: fixed; /* Fixa a imagem durante o scroll */
@@ -61,7 +61,13 @@ nav ul li a {
 nav ul li a:hover {
   color: #f1c40f; /* Cor do link ao passar o mouse */
 }
-
+.info-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; /* Ajuda a quebrar em telas pequenas */
+  margin-top: 40px;
+  padding: 0 20px;}
 /* Seção "Quem Somos" */
 .quem-somos {
   background-color: rgba(0, 0, 0, 0.5); /* Fundo preto com transparência */
