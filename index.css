@@ -109,3 +109,49 @@ nav ul li a:hover {
 .dias h2 {
   color: red; /* Cor vermelha no título */
 }
+@media screen and (max-width: 767px) {
+  /* Container das seções */
+  .info-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  /* Seções: "Quem Somos" e "Dias de Culto" */
+  .quem-somos, .dias {
+    width: 100%;
+    min-width: unset;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .quem-somos h2, .dias h2 {
+    font-size: 20px;
+  }
+
+  /* Menu responsivo (se necessário) */
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  /* Botão fixo no fim da tela */
+  button {
+    width: 90%;
+    font-size: 14px;
+    bottom: 10px;
+  }
+}
+
