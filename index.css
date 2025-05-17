@@ -8,7 +8,7 @@
 /* Corpo da página */
 body {
   font-family: Arial, sans-serif; /* Define a fonte padrão para o texto */
-  background-image: url(/Projeto/fotos/b.jpg); /* Define imagem de fundo */
+  background-image: url(/b.jpg); /* Define imagem de fundo */
   background-size: 100% 100%; /* Faz a imagem preencher 100% da largura e altura */
   background-position: center; /* Centraliza a imagem */
   background-attachment: fixed; /* Fixa a imagem durante o scroll */
