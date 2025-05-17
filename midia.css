@@ -1,0 +1,58 @@
+/* Reset e estilo geral */
+* {
+  margin: 0; /* Remove margens padrão dos navegadores */
+  padding: 0; /* Remove espaçamento interno padrão */
+  box-sizing: border-box; /* Faz com que padding e borda não aumentem o tamanho do elemento */
+}
+
+body {
+  background-image: url(/Projeto/fotos/332431344_6265770516796147_2355603175064972306_n.jpg); /* Define a imagem de fundo */
+  background-size: 100% 100%; /* Faz a imagem ocupar 100% da largura e altura (pode distorcer) */
+  background-position: center; /* Centraliza a imagem de fundo */
+  background-attachment: fixed; /* Faz a imagem ficar fixa ao rolar a página */
+  height: 100vh; /* Define a altura da página como 100% da altura da tela */
+  font-family: Arial, sans-serif; /* Define a fonte padrão do texto */
+}
+
+/* CABEÇALHO */
+.cabecalho {
+  display: flex; /* Coloca logo e menu lado a lado (em linha) */
+  justify-content: space-between; /* Empurra a logo para a esquerda e o menu para a direita */
+  align-items: center; /* Alinha logo e link verticalmente ao centro */
+  background-color: rgba(207, 214, 211, 0.884); /* Fundo com leve transparência */
+  padding: 0 20px; /* Espaço interno apenas nas laterais (direita e esquerda) */
+  height: 113px; /* Define a altura exata do cabeçalho (igual à da logo) */
+}
+
+/* LOGO */
+.logo img {
+  height: 100%; /* Faz a imagem preencher toda a altura do cabeçalho */
+  width: auto; /* Mantém a proporção original da imagem */
+  object-fit: contain; /* Garante que a imagem fique inteira dentro do espaço */
+}
+
+/* MENU DE NAVEGAÇÃO */
+nav ul {
+  list-style: none; /* Remove os marcadores de lista padrão (bolinhas) */
+  display: flex; /* Exibe os itens da lista em linha horizontal */
+  gap: 20px; /* Espaçamento entre os links */
+}
+
+nav ul li a {
+  color: #050505; /* Cor do texto dos links */
+  text-decoration: none; /* Remove o sublinhado dos links */
+  font-size: 16px; /* Define o tamanho da fonte dos links */
+  transition: color 0.3s; /* Efeito suave ao mudar a cor ao passar o mouse */
+}
+
+nav ul li a:hover {
+  color: #f1c40f; /* Cor do link quando o mouse passa por cima */
+}
+
+/* GALERIA DE IMAGENS */
+.conteiner img {
+  width: 250px; /* Largura fixa para cada imagem */
+  height: 200px; /* Altura fixa para manter o mesmo tamanho entre as imagens */
+  object-fit: cover; /* Corta a imagem para preencher o espaço sem distorcer */
+  margin: 5px; /* Espaço entre as imagens */
+}
