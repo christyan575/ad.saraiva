@@ -86,14 +86,6 @@ video {
 /* RESPONSIVIDADE                */
 /* ----------------------------- */
 
-/* CELULAR (até 767px) */
-@media screen and (max-width: 767px) {
-  .cabecalho {
-    flex-direction: column;
-    gap: 15px;
-    height: auto;
-    padding: 15px;
-  }
 
   nav ul {
     flex-direction: column;
